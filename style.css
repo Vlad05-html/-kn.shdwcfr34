@@ -1,0 +1,102 @@
+@font-face{
+	font-family: Montserrat;
+	src: url('../fonts/Montserrat.ttf');
+}
+@font-face{
+	font-family: Poppins-Bolt;
+	src: url('../fonts/Poppins-Bold.ttf');
+}
+@font-face{
+	font-family: Poppins-SemiBold;
+	src: url('../fonts/Poppins-SemiBold.ttf');
+}
+@font-face{
+	font-family: Roboto;
+	src: url('../fonts/Roboto-VariableFont_wdth,wght.ttf');
+}
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Montserrat sans-serif;
+	text-decoration: none;
+	list-style: none;
+}
+body{
+	width: 1440px;
+	margin: 0 auto;
+}
+
+nav {
+	padding: 27px 40px 27px 90px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+.links{
+	display: flex;
+	column-gap: 94px;
+}
+.links a{
+	color: #000000;
+	font-weight: 600;
+	line-height: 28px;
+	letter-spacing: 0.2px;
+	font-size: 16px;
+}
+.links a:hover{
+	color: #FA4A0C;
+}
+.header {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	padding: 73px 217.5px 146px 217px;
+	background-image: url('../img/header.jpg');
+	color: #ffffff;
+	text-align: center;
+}
+.header h3{
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 36px;
+	margin-bottom: 7px;
+}
+h1{
+	font-size: 58px;
+	font-weight: 700;
+	line-height: 80px;
+	margin-bottom: 7px;
+	font-family: Poppins-Bold;
+}
+.header p{
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 38px;
+	color: #F6F6F6;
+	margin-bottom: 54px;
+}
+.button button{
+	border: solid 1px #ffffff;
+	background: none;
+	color #ffffff;
+	border-radius: 30px;
+	font-size: 24px;
+	font-weight: 700;
+	padding: 16px 59px;
+	cursor: pointer;
+	transition: 0.5s;
+
+}
+.button button:hover{
+	background: #FA4A0C;
+	border: none;
+	transform: scale3d(1, 1, 1);
+}
+.how-to-do{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
